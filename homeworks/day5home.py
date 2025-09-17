@@ -25,4 +25,3 @@ for k,v in FBdict.items():
 #fullstack! students number 
 fullstack={"fullstack":sum(x for x in FBdict.values())}
 print(fullstack)
-# print(type(fullstack))
