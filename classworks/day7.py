@@ -19,4 +19,4 @@ def sum_characters(item, index=0):
         return 0
     else:
         return len(item[index]) + sum_characters(item, index + 1)
-print(f"Total number of characters is {sum_characters(items)}")
+print(f"Total number of characters in the list is  {sum_characters(items)}")
