@@ -17,5 +17,6 @@ for x in items:
 def sum_characters(item, index=0):
     if index == len(item):
         return 0
-    return len(item[index]) + sum_characters(item, index + 1)
-print(sum_characters(items))
+    else:
+        return len(item[index]) + sum_characters(item, index + 1)
+print(f"Total number of characters ={sum_characters(items)}")
