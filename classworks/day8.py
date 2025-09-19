@@ -33,6 +33,7 @@ class Consultant(Employee, PartTime):
 
     def show_detail(self):
         print(f"The employee name is {self.name} , age={self.age} , Employee_id={self.employee_id} , Working_Hours={self.working_hour} , Project_name={self.project_name}.")
+# creating objects
 stud1 = Person("Kevin", 26)
 stud1.show_detail() 
 stud1 = Employee("Kevin", 26,"t1d")
